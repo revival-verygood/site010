@@ -1,318 +1,535 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <title>Путь Духовного Возрождения.</title>
-    <link rel="stylesheet" href="style.css">    
-  </head>  
-  <body>
-    <header>
-      <div class="header"> <a class="header-logo" href="index.html"><img class="header-logo__img" src="logo_002.png" alt="Logo"></a>
-        <nav> 
-          <ul class="nav">
-            <li class="nav-item"> <a class="nav-link active" href="index.html">Страница_1</a></li>
-            <li class="nav-item"> <a class="nav-link" href="index2.html">Страница_2</a></li>
-            <li class="nav-item"> <a class="nav-link" href="index3.html">Страница_3</a></li>
-            <li class="nav-item"> <a class="nav-link" href="###">|→</a></li>
-          </ul>
-        </nav>
-    </header>
-    <section class="section-banner">
-      <div class="container">
-        <div class="banner">
-          <h1 class="banner__title">
-            1. Путь Духовного возрождения 
-            <br>(приглашение)
-            </br>
-          </h1>
-                    <div class='video-opisanie'>
-          </div>
-                </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="container">
-        <h2 class="section__h2"> <a class="section__h2-link" href="###">Описание и приглашение</a></h2>
-        <div class="movies">           
-          <iframe width="830" height="455" src="https://www.youtube.com/embed/hGmHPLlwE3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>    
-      </div>
-    </section>
-    <section class="section">
-      <div class="container">
-        <h2 class="section__h2"> <a class="section__h2-link" href="###">Божье основание Духовного возрождения</a></h2>
-          <div class="movies">
-            <iframe width="830" height="455" src="https://www.youtube.com/embed/OReQIsHCHtQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </div>
-        <a href="index2.html"> 
-          <button class="btn">Следующая страница →</button>
-        </a>
-      </div>
-    </section>
-    <section class="section">
-      <div class="container">        
-        <div class="genres">
-          <div class="genres-item genres-item_romance">
-            <div class="genres-icon"><img class="genres__image" src="f21.jpg" alt="22"></div>
-            <h3 class="genres__title">
-              1-й подраздел
-            </h3>
-              <a href="#"> 
-                <button class="btn02">Перейти к разделу →</button>
-              </a>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Путь Духовного Возрождения</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+      
+    <div class="body-wraper">
+        <header class="header">
+            <div class="container header__container">
+                <a href="index.html" class="logo">
+                    <img class="logo__img" src="/img/logo.png" alt="Логотип">
+                </a>
+
+                <button class="header__burger-btn" id="burger">
+                    <span></span><span></span><span></span>
+                </button>
+
+                <nav class="menu" id="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__link" href="#container_01">
+                                1. Приглашение и описание                                
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#container_02">
+                                2.Божье основание Духовного возрождения
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#container_03">
+                                3. Особенности Духовной поддержки (1, 2 части)                                                               
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#container_04">
+                                4. Как найти Единомышленников
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#container_05">
+                                5. Путь ученика(ков) Иисуса (1, 2, 3 части) 
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#container_06">
+                                6. Почему возрождение "засыхает"?
+                                
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#container_07">
+                                сждения <br></br>в истории Божьего народа 
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#container_08">
+                                8. Евангелие для верующих <br></br>(1, 2, 3 части)
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#container_09">
+                                9. Духовное изучение Библии: <br></br>- Ключи "к уразумению Писаний" <br></br>(1,2 части) 
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#container_10">
+                                10. Методы исследования Библии <br></br>(1, 2 части)
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#container_11">
+                                11. Практика изучения Библии <br></br>(1, 2 части)
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#container_12">
+                                12. Темы Библии и ученичество <br></br>(призвание - это от Бога <br></br>или выбор человека)? 
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#container_13">
+                                13. Ключи "к уразумению Писаний" <br></br>(Цель + Замысел + Структура) 
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#container_14">
+                                14. Применение "ключей" <br></br>к пониманию Библии <br></br>(1, 2 части) 
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#container_15">
+                                15. "Дневник Возрождения <br></br>(8 частей)" 
+                            </a>
+                        </li> 
+                        <li class="menu__item">
+                            <a class="menu__link" href="#container_16">
+                                16. * Раздел в разработке * 
+                            </a>
+                        </li>
+                                            
+                    </ul>
+                </nav>
             </div>
-            <div class="genres">
-              <div class="genres-item genres-item_romance">
-                <div class="genres-icon"><img class="genres__image" src="f21.jpg" alt="22"></div>
-                <h3 class="genres__title">
-                  2-й подраздел
-                </h3>
-                  <a href="#"> 
-                    <button class="btn02">Перейти к разделу →</button>
-                  </a>
-                </div>
-                <div class="genres">
-                  <div class="genres-item genres-item_romance">
-                    <div class="genres-icon"><img class="genres__image" src="f21.jpg" alt="22"></div>
-                    <h3 class="genres__title">
-                      3-й подраздел
-                    </h3>
-                      <a href="##"> 
-                        <button class="btn02">Перейти к разделу →</button>
-                      </a>
-                    </div>
+        </header>
+        <main>
+            <section>
+                <div class="container">
+                    <h1>Путь Духовного Возрождения</h1>
+                    <p>
+                    </p>
+                        <div class="text_01">
+                        Добрый день дорогие братья и сестры.
+                        Меня
+                        зовут Константин Изотов и сегодня я хочу
+                        представить вам
+                        специализированную программу Духовного
+                        развития, которую мы организовываем
+                        совместно с инициативной группой
+                        Киевского Левобережного духовного центра
+                        "Церкви Христиан Адвентистов Седьмого Дня".
+                        <p></p>
+                        Эта программа она направлена на
+                        Духовное развитие и как бы имеет широкий
+                        способ в сферах применения:
+                        - как для личного укрепления, так и для развития в малых
+                        группах или для улучшения организации
+                        работы общины для подготовки духовных,
+                        так называемых духовных кадров. 
+                        То есть
+                        лидеров общин лидеров групп лидеров
+                        служения лидеров отделов.
+                                                
+                        Ну и конечно она также призвана для того чтобы
+                        укрепить тех кто шатается или где-то
+                        устал может быть где-то разочаровался
+                        или есть такое слово перегорел, 
+                        вот то есть укрепить или восстановить обновиться в
+                        силе.
+                        <p></p>
+                        И вот этот принцип надеющие на Господа обновятся в силе,
+                        поднимут крылья как орлы, потекут и не устанут,
+                        пойдут и не утомятся.
+                        
+                            (Книга пророка Исаия 40:31)
+                        
+                        <p>
+                        </p>                                                Вот то есть вот этот принцип
+                        Я думаю что очень важно нам понять, что
+                        этот принцип он также относится ко всем
+                        кто участвует в служении и к тем кто
+                        собирается или не решается участвовать в
+                        служении из-за того что боится что не
+                        справится.
 
-                    <div class="genres">
-                      <div class="genres-item genres-item_romance">
-                        <div class="genres-icon"><img class="genres__image" src="f21.jpg" alt="22"></div>
-                        <h3 class="genres__title">
-                          4-й подраздел
-                        </h3>
-                          <a href="##"> 
-                            <button class="btn02">Перейти к разделу →</button>
-                          </a>
+                        Но мне бы хотелось сейчас
+                        чуть-чуть описать саму суть программы. 
+                        Название программы это наверное самый
+                        сложный вопрос, потому что всегда её
+                        можно назвать разными словами.
+                        Но вот мне
+                        бы хотелось обратить внимание на
+                        принцип пути.                    
+                    
                         </div>
+                    <p>
+                    </p>
+                </div>
+                <div class="img_01">
+                    <img src="bg/img_08.jpg" width="790" height="575">
+                </div>
+                <div class="img_02">
+                    <img src="bg/img_05.jpg" width="790" height="575">
+                </div>
+                <div class="img_03">
+                    <img src="bg/img_02.jpg" width="790" height="575">
+                </div>
 
-                        <div class="genres">
-                          <div class="genres-item genres-item_romance">
-                            <div class="genres-icon"><img class="genres__image" src="f21.jpg" alt="22"></div>
-                            <h3 class="genres__title">
-                              5-й подраздел
-                            </h3>
-                              <a href="##"> 
-                                <button class="btn02">Перейти к разделу →</button>
-                              </a>
-                            </div>
 
-                            <div class="genres">
-                              <div class="genres-item genres-item_romance">
-                                <div class="genres-icon"><img class="genres__image" src="f21.jpg" alt="22"></div>
-                                <h3 class="genres__title">
-                                  6-й подраздел
-                                </h3>
-                                  <a href="##"> 
-                                    <button class="btn02">Перейти к разделу →</button>
-                                  </a>
+
+                <div>
+                    <section class="section">
+                        <div class="container_01">                            
+                            <h2 class="section__h2_first" id="container_01"> <a class="section__h2-link" href="#container_01">1. Приглашение и описание ↓</a></h2>
+                                 <div class="movies-wrap">           
+                                    <iframe width="790" height="435" 
+                                    src="https://www.youtube.com/embed/hGmHPLlwE3E" 
+                                    title="YouTube video player" frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; 
+                                    encrypted-media; gyroscope; picture-in-picture; 
+                                    web-share" 
+                                    allowfullscreen></iframe>
                                 </div>
+                        </div>        
+                    </section>
+                    <section class="section">
+                        <div class="container_02">
+                        <h2 class="section__h2" id="container_02"> <a class="section__h2-link" href="#container_02">2. Божье основание <br></br>Духовного возрождения ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="790" height="435" src="https://www.youtube.com/embed/OReQIsHCHtQ" 
+                                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                                </iframe>
+                            </div>
+                        
+                        </div>
+                    </section>
+                    
+                    <section class="section">
+                        <div class="container_03">
+                        <h2 class="section__h2" id="container_03"> <a class="section__h2-link" href="#container_03">3. Особенности Духовной поддержки (1 часть) ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="790" height="435" src="https://www.youtube.com/embed/RBVbC9WyQJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                                    
+                            </div>
+                        
+                        </div>
+                    </section>
+                    
+                    <section class="section">
+                        <div class="container_03__2">
+                        <h2 class="section__h2" id="container_03__2"> <a class="section__h2-link" href="#container_03__2">Особенности Духовной поддержки (2 часть) ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="790" height="435" src="https://www.youtube.com/embed/4UZ4TO7r9g0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        
+                        </div>
+                    </section> 
+                    <section class="section">
+                        <div class="container_04">
+                        <h2 class="section__h2" id="container_04"> <a class="section__h2-link" href="#container_04">4. Как найти Единомышленников ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="790" height="435" src="https://www.youtube.com/embed/28bIBqB-3z8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        
+                        </div>
+                    </section> 
 
-                                <div class="genres">
-                                  <div class="genres-item genres-item_romance">
-                                    <div class="genres-icon"><img class="genres__image" src="f21.jpg" alt="22"></div>
-                                    <h3 class="genres__title">
-                                      7-й подраздел
-                                    </h3>
-                                      <a href="##"> 
-                                        <button class="btn02">Перейти к разделу →</button>
-                                      </a>
-                                    </div>
+                    <section class="section">
+                        <div class="container_05">
+                        <h2 class="section__h2" id="container_05"> <a class="section__h2-link" href="#container_05">5. Путь ученика(ков) Иисуса <br></br>(1 часть)  ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="790" height="435" src="https://www.youtube.com/embed/zkS3J4Gs5TI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        
+                        </div>
+                    </section>
 
-                                    <div class="genres">
-                                      <div class="genres-item genres-item_romance">
-                                        <div class="genres-icon"><img class="genres__image" src="f21.jpg" alt="22"></div>
-                                        <h3 class="genres__title">
-                                          8-й подраздел
-                                        </h3>
-                                          <a href="##"> 
-                                            <button class="btn02">Перейти к разделу →</button>
-                                          </a>
-                                        </div>
+                    <section class="section">
+                        <div class="container_05__02">
+                        <h2 class="section__h2" id="container_05__02"> <a class="section__h2-link" href="#container_05__02">Путь ученика(ков) Иисуса <br></br>(2 часть)  ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="790" height="435" src="https://www.youtube.com/embed/lShvDfBD9D4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>                        
+                        </div>
+                    </section> 
+                              
+                    <section class="section">
+                        <div class="container_05__03">
+                        <h2 class="section__h2" id="container_05__03"> <a class="section__h2-link" href="#container_05__03">Путь ученика(ков) Иисуса <br></br>(3 часть)  ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="790" height="435" src="https://www.youtube.com/embed/rcOooXs9rRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>                        
+                        </div>
+                    </section>             
+                    <section class="section">
+                        <div class="container_06">
+                        <h2 class="section__h2" id="container_06"> <a class="section__h2-link" href="#container_06">6. Почему возрождение "засыхает"? ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="790" height="435" src="https://www.youtube.com/embed/So6kYQa3QX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        
+                        </div>
+                    </section> 
+                    <section class="section">
+                        <div class="container_07">
+                        <h2 class="section__h2" id="container_07"> <a class="section__h2-link" href="#container_07">7. Развитие Возрождения <br></br>в истории Божьего народа ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="790" height="435" src="https://www.youtube.com/embed/ipLCsdAtz04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        
+                        </div>
+                    </section> 
+                                        
+                    <section class="section">
+                        <div class="container_08">
+                        <h2 class="section__h2" id="container_08"> <a class="section__h2-link" href="#container_08">8. Евангелие для верующих <br></br>(1 часть)  ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="790" height="435" src="https://www.youtube.com/embed/iWuN7ZMfm2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        
+                        </div>
+                    </section> 
+                    <section class="section">
+                        <div class="container_08__02">
+                        <h2 class="section__h2" id="container_08__02"> <a class="section__h2-link" href="#container_08__02">Евангелие для верующих <br></br>(2 часть)  ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="790" height="435" src="https://www.youtube.com/embed/mvmBRFF447Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        
+                        </div>
+                    </section> 
+                    <section class="section">
+                        <div class="container_08__03">
+                        <h2 class="section__h2" id="container_08__03"> <a class="section__h2-link" href="#container_08__03">Евангелие для верующих <br></br>(3 часть)  ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="790" height="435" src="https://www.youtube.com/embed/UpoY4LqpUZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        
+                        </div>
+                    </section>
+                    
+                    <section class="section">
+                        <div class="container_09">
+                        <h2 class="section__h2" id="container_09"> <a class="section__h2-link" href="#container_09">9. Духовное изучение Библии: <br></br>- Ключи "к уразумению Писаний" <br></br>(1 часть)  ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="790" height="435" src="https://www.youtube.com/embed/KqhdSxPkPZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        
+                        </div>
+                    </section> 
+                    <section class="section">
+                        <div class="container_09__02">
+                        <h2 class="section__h2" id="container_09__02"> <a class="section__h2-link" href="#container_09__02">Духовное изучение Библии: <br></br>- Ключи "к уразумению Писаний" <br></br>(2 часть)  ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="790" height="435" src="https://www.youtube.com/embed/2PGVxjrj6oc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        
+                        </div>
+                    </section>                 
 
-                                        <div class="genres">
-                                          <div class="genres-item genres-item_romance">
-                                            <div class="genres-icon"><img class="genres__image" src="f21.jpg" alt="22"></div>
-                                            <h3 class="genres__title">
-                                              9-й подраздел
-                                            </h3>
-                                              <a href="##"> 
-                                                <button class="btn02">Перейти к разделу →</button>
-                                              </a>
-                                            </div>
+                    <section class="section">
+                        <div class="container_10">
+                        <h2 class="section__h2" id="container_10"> <a class="section__h2-link" href="#container_10">10. Методы исследования Библии <br></br>(1 часть) ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="790" height="435" src="https://www.youtube.com/embed/IRBpc1zG5NM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="container_10__02">
+                        <h2 class="section__h2" id="container_10__2"> <a class="section__h2-link" href="#container_10__02">Методы исследования Библии <br></br>(2 часть)  ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="790" height="435" src="https://www.youtube.com/embed/Hq6XPTqvswk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="container_11">
+                        <h2 class="section__h2" id="container_11"> <a class="section__h2-link" href="#container_11">11. Практика изучения Библии <br></br>(1 часть)  ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="790" height="435" src="https://www.youtube.com/embed/RDGq3I_V3h8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="container_11__02">
+                        <h2 class="section__h2" id="container_11__02"> <a class="section__h2-link" href="#container_11__02">Практика изучения Библии <br></br>(2 часть) ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="790" height="435" src="https://www.youtube.com/embed/VudZam06-P0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="container_12">
+                        <h2 class="section__h2" id="container_12"> <a class="section__h2-link" href="#container_12">12. Темы Библии и ученичество <br></br>(призвание - это от Бога <br></br>или выбор человека)? ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="790" height="435" src="https://www.youtube.com/embed/nh8CqhxWtXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="container_13">
+                        <h2 class="section__h2" id="container_13"> <a class="section__h2-link" href="#container_13">13. Ключи "к уразумению Писаний" <br></br>(Цель + Замысел + Структура) ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="790" height="435" src="https://www.youtube.com/embed/C0OqOie_GV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="container_14">
+                        <h2 class="section__h2" id="container_14"> <a class="section__h2-link" href="#container_14">14. Применение "ключей" <br></br>к пониманию Библии <br></br>(1 часть)  ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="790" height="435" src="https://www.youtube.com/embed/b0Y83d_iuo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="container_14__02">
+                        <h2 class="section__h2" id="container_14__02"> <a class="section__h2-link" href="#container_14__02">Применение "ключей" <br></br>к пониманию Библии <br></br>(2 часть)  ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="790" height="435" src="https://www.youtube.com/embed/uGY5rbidYQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="container_15">
+                        <h2 class="section__h2" id="container_15"> <a class="section__h2-link" href="#container_15">15. "Дневник Возрождения" <br></br>(1 часть)   ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/3KrK8MnqH2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>                        
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="container_15__02">
+                        <h2 class="section__h2" id="container_15__02"> <a class="section__h2-link" href="#container_15__02">"Дневник Возрождения" <br></br>(2 часть)  ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/ElYB8v5sago" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>                        
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="container_15__03">
+                        <h2 class="section__h2" id="container_15__03"> <a class="section__h2-link" href="#container_15__03">"Дневник Возрождения" <br></br>(3 часть)  ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/HKQCYMY0gmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="container_15__04">
+                        <h2 class="section__h2" id="container_15__04"> <a class="section__h2-link" href="#container_15__04">"Дневник Возрождения" <br></br>(4 часть)  ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/rfJHa8w9WnU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>                        
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="container_15__05">
+                        <h2 class="section__h2" id="container_15__05"> <a class="section__h2-link" href="#container_15__05">"Дневник Возрождения" <br></br>(5 часть)  ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/-BEM4qUyask" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>                        
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="container_15__06">
+                        <h2 class="section__h2" id="container_15__06"> <a class="section__h2-link" href="#container_15__06">"Дневник Возрождения" <br></br>(6 часть)  ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/-SPC14Pbwis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>                        
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="container_15__07">
+                        <h2 class="section__h2" id="container_15__07"> <a class="section__h2-link" href="#container_15__07">"Дневник Возрождения" <br></br>(7 часть)  ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/2FwlpuXvXGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>                        
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="container_15__08">
+                        <h2 class="section__h2" id="container_15__08"> <a class="section__h2-link" href="#container_15__08">"Дневник Возрождения" <br></br>(8 часть)  ↓</a></h2>
+                            <div class="movies-wrap">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/MrXWmbFXy0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>                        
+                        </div>
+                    </section>
+                       
+                    
 
-                                            <div class="genres">
-                                              <div class="genres-item genres-item_romance">
-                                                <div class="genres-icon"><img class="genres__image" src="f21.jpg" alt="22"></div>
-                                                <h3 class="genres__title">
-                                                  10-й подраздел
-                                                </h3>
-                                                  <a href="##"> 
-                                                    <button class="btn02">Перейти к разделу →</button>
-                                                  </a>
-                                                </div>
 
-                                                <div class="genres">
-                                                  <div class="genres-item genres-item_romance">
-                                                    <div class="genres-icon"><img class="genres__image" src="f21.jpg" alt="22"></div>
-                                                    <h3 class="genres__title">
-                                                      11-й подраздел
-                                                    </h3>
-                                                      <a href="##"> 
-                                                        <button class="btn02">Перейти к разделу →</button>
-                                                      </a>
-                                                    </div>
+                    -
+                                        <section class="section">
+                        <div class="container_">
+                        <h2 class="section__h2" id="container_"> <a class="section__h2-link" href="#container_">  ↓</a></h2>
+                            <div class="movies-wrap">
+                                ++
+                            </div>
+                        
+                        </div>
+                    </section>                     
+                    -
 
-                                                    <div class="genres">
-                                                      <div class="genres-item genres-item_romance">
-                                                        <div class="genres-icon"><img class="genres__image" src="f21.jpg" alt="22"></div>
-                                                        <h3 class="genres__title">
-                                                          12-й подраздел
-                                                        </h3>
-                                                          <a href="##"> 
-                                                            <button class="btn02">Перейти к подразделу →</button>
-                                                          </a>
-                                                        </div>
 
-                                                        <div class="genres">
-                                                          <div class="genres-item genres-item_romance">
-                                                            <div class="genres-icon"><img class="genres__image" src="f21.jpg" alt="22"></div>
-                                                            <h3 class="genres__title">
-                                                              13-й подраздел
-                                                            </h3>
-                                                              <a href="##"> 
-                                                                <button class="btn02">Перейти к подразделу →</button>
-                                                              </a>
-                                                            </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+</body>
 
-                                                            <div class="genres">
-                                                              <div class="genres-item genres-item_romance">
-                                                                <div class="genres-icon"><img class="genres__image" src="f21.jpg" alt="22"></div>
-                                                                <h3 class="genres__title">
-                                                                  14-й подраздел
-                                                                </h3>
-                                                                  <a href="##"> 
-                                                                    <button class="btn02">Перейти к подразделу →</button>
-                                                                  </a>
-                                                                </div>
-
-                                                                <div class="genres">
-                                                                  <div class="genres-item genres-item_romance">
-                                                                    <div class="genres-icon"><img class="genres__image" src="f21.jpg" alt="22"></div>
-                                                                    <h3 class="genres__title">
-                                                                      15-й подраздел
-                                                                    </h3>
-                                                                      <a href="##"> 
-                                                                        <button class="btn02">Перейти к подразделу →</button>
-                                                                      </a>
-                                                                    </div>
-
-                                                                    <div class="genres">
-                                                                      <div class="genres-item genres-item_romance">
-                                                                        <div class="genres-icon"><img class="genres__image" src="f21.jpg" alt="22"></div>
-                                                                        <h3 class="genres__title">
-                                                                          16-й подраздел
-                                                                        </h3>
-                                                                          <a href="##"> 
-                                                                            <button class="btn02">Перейти к разделу →</button>
-                                                                          </a>
-                                                                        </div>
-
-                                                                        <div class="genres">
-                                                                          <div class="genres-item genres-item_romance">
-                                                                            <div class="genres-icon"><img class="genres__image" src="f21.jpg" alt="22"></div>
-                                                                            <h3 class="genres__title">
-                                                                              17-й подраздел
-                                                                            </h3>
-                                                                              <a href="##"> 
-                                                                                <button class="btn02">Перейти к подразделу →</button>
-                                                                              </a>
-                                                                            </div>
-
-                                                                            <div class="genres">
-                                                                              <div class="genres-item genres-item_romance">
-                                                                                <div class="genres-icon"><img class="genres__image" src="f21.jpg" alt="22"></div>
-                                                                                <h3 class="genres__title">
-                                                                                  18-й подраздел
-                                                                                </h3>
-                                                                                  <a href="##"> 
-                                                                                    <button class="btn02">Перейти к подразделу →</button>
-                                                                                  </a>
-                                                                                </div>
-
-                                                                                <div class="genres">
-                                                                                  <div class="genres-item genres-item_romance">
-                                                                                    <div class="genres-icon"><img class="genres__image" src="f21.jpg" alt="22"></div>
-                                                                                    <h3 class="genres__title">
-                                                                                      19-й подраздел
-                                                                                    </h3>
-                                                                                      <a href="##"> 
-                                                                                        <button class="btn02">Перейти к подразделу →</button>
-                                                                                      </a>
-                                                                                    </div>
-                    <div class="genres">
-                    <div class="genres-item genres-item_romance">
-                  <div class="genres-icon"><img class="genres__image" src="f21.jpg" alt="22"></div>
-                <h3 class="genres__title">
-              20-й подраздел
-            </h3>
-          <a href="##">
-        <button class="btn02">Перейти к подразделу →</button>
-      </a>
-    </div>                       
-    </section>
-    <section class="section">
-      <div class="container">
-        <h2 class="section__h2"> <a class="section__h2-link" href="##">...</a></h2>
-      </div>
-    </section>
-    <section class="section">
-      <div class="container">
-      </div>
-    </section>
-    <section class="section">
-      <div class="container">
-        <div class="offer"> 
-          <h2 class="offer__title">..&nbsp;....&nbsp; </h2>
-          c
-        </div>
-      </div>
-    </section>
     <footer> 
-      <div class="footer"> 
-        <div class="footer-item"> <a class="footer-logo" href="index.html"><img class="footer-logo__img" src="logo_002.png" alt="Logo"></a></div>
-        <div class="footer-item"> 
-          <img>
-          <div class="footer-telegram-chat-01-1"> <a class="footer-logo_tg-01" href="https://t.me/+U5owcxgWRcJkNGUy"><img class="footer-logo_tg01" height="110px" width="110px" src="tg009.png" alt="telegram-chat-01"></a>
-          </img>
+        <div class="footer01">           
+            <div class="footer-item001">
+            </div>   
+
+            <div class="footer-telegram-chat-01-1"> 
+                <a class="footer-logo_tg-01" href="https://t.me/+U5owcxgWRcJkNGUy"><img class="footer-logo_tg01" height="110px" width="110px" src="img/tg01.png" alt="telegram-chat-01"></a>
+            </div>    
+            
         </div>
-        <div class="footer-item"> 
-          <ul class="footer-list"> 
-            <li class="footer-list__item"> <a class="footer-list__link" href="https://t.me/+U5owcxgWRcJkNGUy">Telegram Чат</a></li>
-            <p></p>
-              <div>
-                ...
-              </div>
-              <div>
-                ...
-              </div>
-              <div>
-                ...
-              </div>
-              <div>
-                <div class="youtube-chanel-01-1"> <a class="footer-logo_yt-01" href="https://www.youtube.com/@user-cv9os8mw2t"><img class="footer-logo_yt01" height="110px" width="110px" src="yt02.png" alt="youtube-chanel-01"></a>
-              </div>
-              
-            <li class="footer-list__item"> <div><img class="009" href="yt12.png"> </div><a class="footer-list__link" href="https://www.youtube.com/@user-cv9os8mw2t">You-Tube Канал </a></li>
-          </ul>
-        </div>
-      </div>      
+        <div class="footer-item01"> 
+            <ul class="footer-list"> 
+                <div class="footer-list__item"> <a class="footer-list__link" href="https://t.me/+U5owcxgWRcJkNGUy">Telegram Чат</a></div>
+                    <p></p>
+                        <div>
+                        ...
+                        </div>
+                        <div>
+                        ...
+                        </div>
+                        <div>
+                        ...
+                        </div>
+                        <div>
+                        <div class="footer-list__item02">         
+                            <div class="youtube-chanel-01-1"> <a class="footer-logo_yt-01" href="https://www.youtube.com/@user-cv9os8mw2t"><img class="footer-logo_yt01" height="110px" width="110px" src="img/yt02.png" alt="youtube-chanel-01"></a>
+                            </div>
+                        </div>                
+                    <div class="footer-list__item"> <div><img class="009" href="img/yt02.png"> </div><a class="footer-list__link" href="https://www.youtube.com/@user-cv9os8mw2t">You-Tube Канал </a></div>
+                </ul>
+            </div>
+        </div>      
     </footer>
-  </body>
+
 </html>
